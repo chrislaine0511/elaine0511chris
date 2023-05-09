@@ -21,27 +21,60 @@ h1, h2, h3, h4, h5, h6{
 .pics-col{
     padding-bottom: 30px;
     padding-top: 30px;
+
+}
+
+.pics-sub-text{
+    font-size: 1.5rem;
 }
 .letter{
     width:70%;
     margin:auto;
+    color: white;
 }
 
+.letter-body{
+    font-size: 1.5rem
+}
 .image-portrait-long{
     height: 300px;
-    width: 250px;
+    width: 225px;
+    border-radius: 5%;
+}
+.image-portrait-long-gohard{
+    height: 300px;
+    width: 180px;
+    border-radius: 5%;
 }
 .image-portrait{
     height: 300px;
     width: 280px;
+    border-radius: 5%;
 }
 
 .image-landscape{
-    height: 200px;
+    height: 225px;
     width: 300px;
+    border-radius: 5%;
 }
 
+.image-landscape-extra{
+    height: 200px;
+    width: 350px;
+    border-radius: 5%;
+}
 
+.left-heart{
+    position: relative;
+    right: 5rem;
+    font-size: 5rem;
+}
+
+.right-heart{
+    position: relative;
+    left: 5rem;
+    font-size: 5rem;
+}
 
 
 
@@ -53,7 +86,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 #press{
-    background-color: #ef8172;
+    background-color: #ff4c68;
     padding: 3% 3%;
 }
 
@@ -69,15 +102,12 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 100%;
 }
 
-
-/* Call to action and footer */
-
-
 .footer-icons{
-    margin: 20px 9px;
+    margin: 10px 9px;
     color: red;
 }
-#copyright{
+
+#name{
     color:#8f8f8f;
 }
 
